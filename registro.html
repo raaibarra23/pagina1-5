@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="registro.html">Registro</a>
+    <a href="contacto.html">Contacto</a>
+    
+<form class="formregis" action="resultados.html" method="get">
+    <h1>Pagina de registro</h1>
+
+    <label for="nom1">Nombres:</label>
+    <input class="inputs" name="mbre" id="nom1" type="text" placeholder="Nombre">
+    
+    <label for="nom2">Apellidos:</label>
+    <input class="inputs" name="idos" id="nom2" type="text" placeholder="Nombre">
+    
+    <label for="">Genero:</label>
+    <input class="gen" type="radio" name="Gen1" value="Hombre">Hombre
+    <input class="gen" type="radio" name="Gen1" value="Mujer" >Mujer
+    
+    <label for="mail">Correo:</label>
+    <input class="cor" name="cor" type="email" id="mail" placeholder="Correo">
+    
+    <label for="pw">Contraseña:</label>
+    <input class="inputs" name="seña" type="password" id="pw" placeholder="Contraseña">
+    
+    <label for="fe">Fecha de nacimiento</label>
+    <input class="inputs" type="date" name="cha" id="fe" placeholder="Fecha">
+    
+    <label for="dir">Direccion:</label><br>
+    <textarea class="inputs" name="ccion" id="" cols="30" rows="2" placeholder="Direccion"></textarea>
+    
+    <input class="env" type="submit" value="Guardar">
+</form>
+</body>
+</html>
